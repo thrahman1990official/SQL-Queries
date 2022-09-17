@@ -9,12 +9,16 @@ SELECT name FROM city WHERE population > 120000 AND Countrycode = "USA";
 
 /* Select All */
 /* Query all columns for every row in CITY table */
+SELECT * FROM city;
 
 /* Select Table */
 /* Query all columns for city in CITY with ID 1661 */
+SELECT * FROM city WHERE ID=1661;
 
 /* Japanese Cities Attributes */
 /* Query all attributes of every Japanese city in CITY table. COUNTRYCODE for Japan is JPN */
+SELECT * FROM city WHERE countrycode="JPN";
 
 /* Japanese Cities Names */
 /* Query names of all Japanese cities in CITY table. COUNTRYCODE for Japan is JPN */
+SELECT name FROM city WHERE CountryCode="JPN";
