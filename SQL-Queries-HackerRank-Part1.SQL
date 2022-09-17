@@ -5,6 +5,7 @@ SELECT * FROM CITY WHERE population > 100000 AND Countrycode ="USA";
 
 /* Revising the Select Query 2 */
 /* Query NAME field for all American cities in CITY table with populations larger than 120,000. Country Code for America is USA */
+Select name from city where population > 120000 and Countrycode = "USA";
 
 /* Select All */
 /* Query all columns for every row in CITY table */
