@@ -1,6 +1,7 @@
 /* Reference the CITY_TABLE excel file */
 /* Revising the Select Query 1 */
 /* Query all columns for all American cities in CITY table with population larger than 100,000. Country Code for America is USA */
+SELECT * FROM CITY WHERE population > 100000 AND Countrycode ="USA";
 
 /* Revising the Select Query 2 */
 /* Query NAME field for all American cities in CITY table with populations larger than 120,000. Country Code for America is USA */
