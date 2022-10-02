@@ -24,3 +24,6 @@ CREATE TABLE Students
  studentAddress VARCHAR(40) NOT NULL,
  admissionDate DATE,
  PRIMARY KEY (studentId)); /*StudentId is the primary key used for referencing*/
+
+/* Verifying whether the table was created or not */
+SHOW TABLES;
