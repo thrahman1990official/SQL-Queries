@@ -1,3 +1,9 @@
+/* Command for connecting to MariaDB server on localhost */
+mysql -u [username] -p[password]
+
+/* Command connects to MariaDB server on localhost */
+mysql -u root -pS@cure1Pass
+
 /* Creating Database in MariaDB */
 CREATE DATABASE nameOfDatabase;
 
